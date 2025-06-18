@@ -1,0 +1,56 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+  <title>Sticky Sweet Notes</title>
+  <link rel="stylesheet" href="style.css" />
+</head>
+<body>
+
+  <h1>Sticky Sweet Notes 📝</h1>
+
+  <div>
+    <label for="shape">Pick a shape:</label>
+    <select id="shape">
+      <option value="blobby">Choco Bar</option>
+      <option value="square">Choco Square</option>
+      <option value="circle">Donut</option>
+      <option value="cloud">Eggsy</option>
+      <option value="blob2">Taffy Twist</option>
+      <option value="petal">Petal</option>
+      <option value="cloud1">Bugsy</option>
+      <option value="nutty">Nutty</option>
+      <option value="orbit">Vanilla Swirl</option>
+      <option value="teacup">Sugar Drops</option>
+    </select>
+
+    <select id="colorPicker">
+      <option disabled selected hidden>Select Colour</option>
+      <option value="#fffacd">Soft Yellow</option>
+      <option value="#ccffcc">Mint Green</option>
+      <option value="#ffe4e1">Blush Pink</option>
+      <option value="#e0ffff">Baby Blue</option>
+      <option value="#f5e1ff">Lavender</option>
+    </select>
+
+    <select id="highlightColor">
+      <option disabled selected hidden>Highlight Colour</option>
+      <option value="#ffff00">Yellow</option>
+      <option value="#90ee90">Green</option>
+      <option value="#add8e6">Blue</option>
+      <option value="#ffb6c1">Pink</option>
+      <option value="#ffa500">Orange</option>
+    </select>
+
+    <button onclick="createNote()">➕ New Note</button>
+    <button id="highlightBtn" onclick="highlightText()" style="display: none;">🖍️ Highlight</button>
+    <button onclick="window.location.href='archive.html'">📜 View Archive</button>
+  </div>
+
+  <div class="notes-container" id="notesContainer"></div>
+
+  <script src="script.js"></script>
+  
+</body>
+</html>
