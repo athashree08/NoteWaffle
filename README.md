@@ -1,8 +1,6 @@
 # NoteWaffle
 A cute sticky notes desktop app
-Absolutely! Here's a polished and playful `README.md` for your **Sticky Sweet Notes** project:
 
----
 NoteWaffle is is a colorful, feel-good desktop app for creating and managing sticky notes — with fun shapes and colors! Designed for people who love functionality *and* aesthetic joy. Built with Electron.js, HTML, CSS, and JavaScript.
 
 ---
